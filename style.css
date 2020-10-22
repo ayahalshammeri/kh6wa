@@ -1,0 +1,77 @@
+body {
+  background-image: url("./img/bg1.jpg");
+  background-color:white;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* الفقرة */
+.p{
+color: #E6E6FA;
+font-size: 65px;
+text-align: center;
+margin-top: 250px;
+margin-left: -8%;
+}
+
+.p2{
+  color: #E6E6FA;
+font-size: 40px;
+text-align: center;
+/* margin-bottom: 3px; */
+margin-top: 25px;
+margin-left:-8%;
+}
+ /* هيدر */
+ul {
+    list-style-type: none;
+    margin-left: 11px;
+    color: black;
+    padding: 0px;
+    overflow: hidden;
+    background-color:  #e6e6fa44;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size:25px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* بتن ابدأ */
+  .button {
+    padding: 20px 36px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #9370DB;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ac8bf0;
+    margin-left: 44%;
+    margin-top: 3%;
+  }
+  
+  .button:hover {background-color:#9370DB}
+  
+  .button:active {
+    background-color: #9370DB;
+    box-shadow: 0 5px  #E6E6FA;
+    transform: translateY(4px);
+  }
+  
+  /* سوشال ميديا أيكونز */
+  .icons{
+    margin-left: 44.5%;
+    margin-top: 5%;
+  }

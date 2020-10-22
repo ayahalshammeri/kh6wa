@@ -1,0 +1,76 @@
+/* الخلفية */
+body {
+ background-image: url("./img/bg2.png");
+ background-color: white;
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;}
+
+
+/* هيدر */
+ul {
+  list-style-type: none;
+  margin-left: 11px;
+  color: black;
+  padding: 0px;
+  overflow: hidden;
+  background-color:  #e6e6fa44;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size:25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* الفقرة */
+.p{
+  color: #E6E6FA;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: -1%;
+
+  }
+
+/* أراي */
+.array{
+ display: flex;
+ justify-content:space-between;
+ margin-top: 50px;
+ margin-bottom: 75px;
+ margin-left: 250px;
+ margin-right: 250px;
+
+}
+
+.array2{
+display: flex;
+justify-content: space-between;
+margin-bottom: 75px;
+margin-left: 250px;
+margin-right: 250px;
+}
+
+.array3{
+display: flex;
+justify-content: space-between;
+margin-bottom: 75px;
+margin-left: 250px;
+margin-right: 250px;
+}
+
+.array4{
+display: flex;
+justify-content: space-between;
+margin-left: 250px;
+margin-right: 250px;
+}
