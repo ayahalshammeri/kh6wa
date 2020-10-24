@@ -1,0 +1,85 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  } 
+/* الخلفية */
+body {
+    background-image: url("./img/bg2.png");
+    background-color: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+   
+   /* هيدر */
+   ul {
+     list-style-type: none;
+     margin-left: 11px;
+     color: white;
+     padding: 0px;
+     overflow: hidden;
+     background-color:  #e6e6fa44;
+   }
+   
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     font-size:25px;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+
+   .img{
+       margin-right: 40%;
+       margin-top: 5%;
+   }
+   
+  /* البتن */
+  .button {
+background-color:#e6e6fa;
+border: none;
+color: black;
+padding: 16px 32px;
+text-align: center;
+font-size: 20px;
+margin: 4px 2px;
+opacity: 0.6;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+margin-right: 46.5%;
+}
+.button:hover {opacity: 1}
+
+/* المعلومات */
+.info{
+    color:#e6e6fa;
+    font-size: 65px;
+    margin-right: 25%;
+}
+
+/* البتن */
+.button2 {
+    background-color:#e6e6fa;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-bottom: 60px;
+    }
+    .button2:hover {opacity: 1}
